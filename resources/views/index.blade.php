@@ -9,4 +9,7 @@
             <button type="submit" class="btn btn-primary">產生短網址</button>
         </div>
     </form>
+    @error('full_url')
+        <div class="alert alert-danger mt-4 mb-0">{{ $message }}</div>
+    @enderror
 @endsection

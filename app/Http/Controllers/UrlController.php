@@ -2,8 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\Models\Url;
+use App\Http\Requests\GenerateUrlRequest;
 use App\Repositories\UrlRepository;
 
 class UrlController extends Controller
@@ -29,7 +28,7 @@ class UrlController extends Controller
         return redirect('/');
     }
 
-    public function generate(Request $request){
+    public function generate(GenerateUrlRequest $request){
         $url = $this->urlRepository->generateShortUrl($request->full_url);
         
         return view('generate', ['short_url' => "{$request->getHost()}/{$url->short_url}"]);
