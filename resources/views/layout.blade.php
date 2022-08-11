@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>短網址產生器</title>
-    <meta name="description" content="">
-    <link rel="icon" sizes="192x192" href="">
+    <meta name="description" content="短網址產生器">
+    <link rel="icon" sizes="192x192" href="{{ url('favicon.svg') }}">
     
     <!-- Bootstrap css -->
     <link href="{{ url('assets/bootstrap.min.css') }}" rel="stylesheet">
