@@ -17,7 +17,7 @@
         <!-- Content -->
         <div class="bg-white py-5 px-4 mt-5 rounded-3 text-center border">
             <a class="text-decoration-none" href="/">
-                <h2 class="fw-bold mb-4">短網址產生器</h2>
+                <h2 class="fw-bold mb-5">短網址產生器</h2>
             </a>
             
             @yield('content')
