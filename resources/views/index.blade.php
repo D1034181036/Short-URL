@@ -1,7 +1,6 @@
 @extends('layout')
 
 @section('content')
-    <!-- Submit Form -->
     <form action="/generate" method="POST">
         @CSRF
         <div class="input-group input-group-lg">
