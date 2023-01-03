@@ -8,8 +8,12 @@
     <meta name="description" content="可以將網址縮短的好工具！">
     <link rel="icon" sizes="192x192" href="{{ url('favicon.svg') }}">
     
-    <!-- Bootstrap css -->
+    <!-- Bootstrap CSS / JS-->
     <link href="{{ url('assets/bootstrap.min.css') }}" rel="stylesheet">
+    <script src="{{ url('assets/bootstrap.bundle.min.js') }}"></script>
+
+    <!-- jQuery JS -->
+    <script src="{{ url('assets/jquery.min.js') }}"></script>
 </head>
 <body class="bg-light">
     <!-- Container -->
